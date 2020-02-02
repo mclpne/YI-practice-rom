@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400i,700&display=swap');
+
+/* practiceyoshi.com? */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* General Styles */
+
+.btn {
+    margin: 0 7px;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 0 rgba(0, 0, 0, .2);
+    letter-spacing: 1.75px;
+    padding: 10px 18px;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.btn-blue {
+    border: 1px solid #1ec7fa;
+    background: #1ec7fa;
+}
+
+.btn-blue:hover {
+    background: #1480a1;
+    border: 1px solid #1480a1;
+}
+
+.btn-white {
+    border: 1px solid #fff;
+}
+
+.btn-white:hover {
+    color: #000;
+    background: #f2f2f2;
+}
+
+/* Navigation Styles */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.nav__links li {
+    display: inline-block;
+    list-style: outside none none;
+}
+
+.nav__links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 3px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.nav__links a:hover {
+    color: #1ec7fa;
+}
+
+
+/* Header Styles */
+
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header-bg.png) center center/cover;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    text-shadow: 0.5px 0.5px 8px #000000;  
+}
+
+.header-main {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-img {
+    width: 180px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 65px;
+    margin:20px auto 0;
+    line-height: 1.2em;
+}
+
+header h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* Features Section */
+
+.info {
+    padding: 80px 10px;
+    background-color: #F5F5F5;
+}
+
+.features {
+    padding: 70px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features ul li img {
+    padding-right: 3px;
+}
+
+.info h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.info ul {
+    font-size: 23px;
+    font-weight: 700;
+    list-style-type: none;
+}
+
+.info li {
+    padding-bottom: 15px;
+}
+
+.info .ui-img {
+    width: 500px;
+    box-shadow: 12px 12px 15px rgba(0, 0, 0, .6);
+    margin-right: 200px;
+}
+
+
+
