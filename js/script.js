@@ -1,4 +1,4 @@
-$('#navbar a').on('click', function(e) {
+$('.nav__links a, .header-main a').on('click', function(e) {
     if(this.hash !== '') {
         e.preventDefault();
 
